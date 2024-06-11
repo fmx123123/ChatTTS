@@ -1,23 +1,23 @@
-# ChatTTS
-[**English**](./README.md) | [**中文简体**](./README_CN.md)
+#聊天
+​**英语**/读我文件|****中文简体./自述文件
 
-ChatTTS is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. It supports both English and Chinese languages. Our model is trained with 100,000+ hours composed of chinese and english. The open-source version on **[HuggingFace](https://huggingface.co/2Noise/ChatTTS)** is a 40,000 hours pre trained model without SFT.
+聊天是一个专为对话场景设计的文本到语音模型，如法学硕士助手。同时支持英文和中文两种语言。我们的模特是100​,,,,,,000多个小时的中英文培训。上的开源版本哈格脸
 
-For formal inquiries about model and roadmap, please contact us at **open-source@2noise.com**. You could join our QQ group: ~~808364215 (Full)~~ 230696694 (Group 2) for discussion. Adding github issues is always welcomed.
-
----
-## Highlights
-1. **Conversational TTS**: ChatTTS is optimized for dialogue-based tasks, enabling natural and expressive speech synthesis. It supports multiple speakers, facilitating interactive conversations.
-2. **Fine-grained Control**: The model could predict and control fine-grained prosodic features, including laughter, pauses, and interjections. 
-3. **Better Prosody**: ChatTTS surpasses most of open-source TTS models in terms of prosody. We provide pretrained models to support further research and development.
-
-For the detailed description of the model, you can refer to **[video on Bilibili](https://www.bilibili.com/video/BV1zn4y1o7iV)**
+关于模型和路线图的正式咨询，请通过以下方式联系我们：****开放-来源@噪音群：群：群：（组）进行讨论。添加问题总是受欢迎的。2​808364215​群：230696694​2​
 
 ---
+##强调
+1. 会话TTS：聊天系统针对基于对话的任务进行了优化，实现了自然和表达性的语音合成。它支持多个扬声器，促进交互式对话。
+2. **细粒度控制**该模型可以预测和控制细粒度的韵律特征，包括笑声、停顿和感叹。
+3 **更好的韵律** 
 
-## Disclaimer
+https://www.bilibili.com/video/BV1zn4y1o7iV**
 
-This repo is for academic purposes only. It is intended for educational and research use, and should not be used for any commercial or legal purposes. The authors do not guarantee the accuracy, completeness, or reliability of the information. The information and data used in this repo, are for academic and research purposes only. The data obtained from publicly available sources, and the authors do not claim any ownership or copyright over the data.
+---
+
+##免责声明
+
+本回购协议仅用于学术目的。它是用于教育和研究用途，不应用于任何商业或法律目的。作者不保证信息的准确性、完整性或可靠性。本回购协议所使用的信息和数据仅用于学术和研究目的。数据从公开来源获得，作者不声称对数据拥有任何所有权或版权。
 
 ChatTTS is a powerful text-to-speech system. However, it is very important to utilize this technology responsibly and ethically. To limit the use of ChatTTS, we added a small amount of high-frequency noise during the training of the 40,000-hour model, and compressed the audio quality as much as possible using MP3 format, to prevent malicious actors from potentially using it for criminal purposes. At the same time, we have internally trained a detection model and plan to open-source it in the future.
 
